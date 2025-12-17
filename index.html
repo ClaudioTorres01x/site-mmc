@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMC 2.0 - Modelo de Maturidade Conversacional</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">💬</span>
+                <span class="logo-text">MMC <span class="version">2.0</span></span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#niveis">Níveis</a></li>
+                <li><a href="#dominios">Domínios</a></li>
+                <li><a href="#escala">EAMC</a></li>
+                <li><a href="#mmc2">MMC 2.0</a></li>
+                <li><a href="#autores">Autores</a></li>
+                <li><a href="#contato" class="btn-nav">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-badge">Novo: MMC 2.0 com Inteligência Artificial</div>
+            <h1>Modelo de Maturidade <span class="highlight">Conversacional</span></h1>
+            <p class="hero-subtitle">Transforme suas conversas em resultados. Desenvolva competências conversacionais que geram confiança, colaboração e alta performance.</p>
+            <div class="hero-buttons">
+                <a href="#sobre" class="btn btn-primary">Conhecer o Modelo</a>
+                <a href="#escala" class="btn btn-secondary">Fazer Autoavaliação</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">7</span>
+                    <span class="stat-label">Níveis de Maturidade</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Domínios de Atuação</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">6</span>
+                    <span class="stat-label">Eixos de Competência</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="conversation-animation">
+                <div class="bubble bubble-1">💡</div>
+                <div class="bubble bubble-2">🤝</div>
+                <div class="bubble bubble-3">🎯</div>
+                <div class="bubble bubble-4">🚀</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Sobre o MMC</span>
+                <h2>O que é o Modelo de Maturidade Conversacional?</h2>
+                <p>Um framework científico para desenvolver competências conversacionais em indivíduos e organizações</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="about-icon">🎯</div>
+                    <h3>Objetivo</h3>
+                    <p>Identificar em que nível de maturidade conversacional o indivíduo ou organização se encontra, tornando possível a construção de um plano de desenvolvimento.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">📊</div>
+                    <h3>Metodologia</h3>
+                    <p>Baseado em modelos consagrados como CMMI e P-CMM, integrado com a Ontologia da Linguagem e Neurociência Conversacional (C-IQ).</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">🔬</div>
+                    <h3>Fundamentação</h3>
+                    <p>Desenvolvido através de ampla pesquisa bibliográfica na UCB, preenchendo a lacuna entre modelos de maturidade e competência conversacional.</p>
+                </div>
+                <div class="about-card">
+                    <div class="about-icon">🌟</div>
+                    <h3>Aplicação</h3>
+                    <p>Aplicável em contextos individuais, equipes e organizações, incluindo interações humano-humano e humano-máquina (IA).</p>
+                </div>
+            </div>
+            <div class="timeline">
+                <h3 class="timeline-title">Evolução do MMC</h3>
+                <div class="timeline-container">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">2011</span>
+                            <h4>MMC Original</h4>
+                            <p>Dissertação de mestrado na UCB. Foco em interações humano-humano baseado na Ontologia da Linguagem.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">2025</span>
+                            <h4>MMC 2.0</h4>
+                            <p>Integração do C-IQ (Quociente de Inteligência Conversacional) e IA Generativa para contextos híbridos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Níveis Section -->
+    <section id="niveis" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Pilar 2</span>
+                <h2>Os 7 Níveis de Maturidade Conversacional</h2>
+                <p>Da inconsciência à maestria: uma jornada de desenvolvimento contínuo</p>
+            </div>
+            <div class="levels-container">
+                <div class="level-card" data-level="0">
+                    <div class="level-number">0</div>
+                    <div class="level-content">
+                        <h3>Cego</h3>
+                        <p class="level-desc">Ausência de consciência sobre as dinâmicas conversacionais.</p>
+                        <ul class="level-details">
+                            <li>Visão única da realidade</li>
+                            <li>Não sabe que não sabe</li>
+                            <li>Ações podem ser destrutivas</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="level-card" data-level="1">
+                    <div class="level-number">1</div>
+                    <div class="level-content">
+                        <h3>Ignorante</h3>
+                        <p class="level-desc">Reconhecimento limitado das próprias lacunas.</p>
+                        <ul class="level-details">
+                            <li>Sabe que não sabe</li>
+                            <li>Momento crucial de autoconsciência</li>
+                            <li>Primeiro passo para desenvolvimento</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="level-card" data-level="2">
+                    <div class="level-number">2</div>
+                    <div class="level-content">
+                        <h3>Iniciante</h3>
+                        <p class="level-desc">Uso inicial e consciente de estratégias conversacionais.</p>
+                        <ul class="level-details">
+                            <li>Decisão consciente de aprender</li>
+                            <li>Aspecto teórico predomina</li>
+                            <li>Busca mentoria e prática</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="level-card" data-level="3">
+                    <div class="level-number">3</div>
+                    <div class="level-content">
+                        <h3>Iniciante Avançado</h3>
+                        <p class="level-desc">Comunicação estruturada e intencional.</p>
+                        <ul class="level-details">
+                            <li>Foco na mudança prática</li>
+                            <li>Experiência ganha relevância</li>
+                            <li>Autoconfiança crescente</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="level-card" data-level="4">
+                    <div class="level-number">4</div>
+                    <div class="level-content">
+                        <h3>Competente</h3>
+                        <p class="level-desc">Práticas consistentes e eficazes.</p>
+                        <ul class="level-details">
+                            <li>Reconhece padrões</li>
+                            <li>Organiza prioridades</li>
+                            <li>Busca excelência</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="level-card" data-level="5">
+                    <div class="level-number">5</div>
+                    <div class="level-content">
+                        <h3>Virtuoso</h3>
+                        <p class="level-desc">Domínio de dinâmicas complexas, promovendo colaboração.</p>
+                        <ul class="level-details">
+                            <li>Referência para outros</li>
+                            <li>Conversas inovadoras</li>
+                            <li>Antecipa ações estratégicas</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="level-card" data-level="6">
+                    <div class="level-number">6</div>
+                    <div class="level-content">
+                        <h3>Mestre</h3>
+                        <p class="level-desc">Comunicação transformacional com impacto estratégico.</p>
+                        <ul class="level-details">
+                            <li>Estado da arte</li>
+                            <li>Cria novas práticas</li>
+                            <li>Catalisa mudanças sistêmicas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Domínios Section -->
+    <section id="dominios" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Estrutura</span>
+                <h2>3 Domínios e 6 Eixos de Competência</h2>
+                <p>Uma estrutura integrada para desenvolver competências conversacionais</p>
+            </div>
+            <div class="domains-grid">
+                <div class="domain-card domain-action">
+                    <div class="domain-header">
+                        <div class="domain-icon">🎯</div>
+                        <h3>Ação e Resultados</h3>
+                    </div>
+                    <p class="domain-focus">Foco: Transformar conversas em compromissos, entregas e resultados.</p>
+                    <div class="domain-axes">
+                        <div class="axis">
+                            <h4>Clareza</h4>
+                            <p>Formular pedidos explícitos, definir responsáveis e prazos, garantir entendimento mútuo.</p>
+                        </div>
+                        <div class="axis">
+                            <h4>Provocação</h4>
+                            <p>Questionar premissas, desafiar decisões vagas, priorizar o essencial.</p>
+                        </div>
+                        <div class="axis">
+                            <h4>Insights</h4>
+                            <p>Conectar pontos, transformar erros em aprendizados, traduzir discussões em planos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="domain-card domain-relationship">
+                    <div class="domain-header">
+                        <div class="domain-icon">🤝</div>
+                        <h3>Relacionamento (C-IQ)</h3>
+                    </div>
+                    <p class="domain-focus">Foco: Gerar confiança, segurança psicológica e cooperação.</p>
+                    <div class="domain-axes">
+                        <div class="axis">
+                            <h4>Empatia</h4>
+                            <p>Reconhecer emoções, ajustar tom, validar sentimentos e perspectivas.</p>
+                        </div>
+                        <div class="axis">
+                            <h4>Escuta Ativa</h4>
+                            <p>Ouvir sem interromper, parafrasear, evitar respostas defensivas.</p>
+                        </div>
+                        <div class="axis">
+                            <h4>Provocação</h4>
+                            <p>Confrontar ideias sem atacar pessoas, transformar debate em diálogo.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="domain-card domain-learning">
+                    <div class="domain-header">
+                        <div class="domain-icon">📚</div>
+                        <h3>Aprendizagem e Reflexão</h3>
+                    </div>
+                    <p class="domain-focus">Foco: Aprender com a experiência e gerar sentido coletivo.</p>
+                    <div class="domain-axes">
+                        <div class="axis">
+                            <h4>Profundidade</h4>
+                            <p>Explorar causas e contextos, formular perguntas 'por que' e 'para quê'.</p>
+                        </div>
+                        <div class="axis">
+                            <h4>Insights</h4>
+                            <p>Conectar aprendizados passados com desafios atuais, criar lições aprendidas.</p>
+                        </div>
+                        <div class="axis">
+                            <h4>Provocação</h4>
+                            <p>Estimular perguntas que rompem padrões, questionar crenças.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EAMC Section -->
+    <section id="escala" class="section section-gradient">
+        <div class="container">
+            <div class="section-header light">
+                <span class="section-tag">Autoavaliação</span>
+                <h2>EAMC - Escala de Autoavaliação</h2>
+                <p>Meça seu nível de maturidade conversacional em 6 eixos</p>
+            </div>
+            <div class="eamc-intro">
+                <p>A EAMC é uma ferramenta de autoavaliação projetada para medir o nível de maturidade conversacional individual com base nos seis eixos do MMC 2.0. Cada item é avaliado em uma escala de 1 a 7.</p>
+            </div>
+            <div class="eamc-axes">
+                <div class="eamc-axis">
+                    <div class="eamc-axis-header">
+                        <span class="eamc-number">1</span>
+                        <h4>Clareza</h4>
+                    </div>
+                    <ul>
+                        <li>Explico ideias de forma simples e objetiva</li>
+                        <li>Formulo pedidos claros com prazos definidos</li>
+                        <li>Verifico se há entendimento alinhado</li>
+                    </ul>
+                </div>
+                <div class="eamc-axis">
+                    <div class="eamc-axis-header">
+                        <span class="eamc-number">2</span>
+                        <h4>Empatia</h4>
+                    </div>
+                    <ul>
+                        <li>Compreendo o ponto de vista do outro</li>
+                        <li>Demonstro respeito mesmo ao discordar</li>
+                        <li>Gero segurança psicológica</li>
+                    </ul>
+                </div>
+                <div class="eamc-axis">
+                    <div class="eamc-axis-header">
+                        <span class="eamc-number">3</span>
+                        <h4>Profundidade</h4>
+                    </div>
+                    <ul>
+                        <li>Questiono o 'porquê' das situações</li>
+                        <li>Identifico padrões recorrentes</li>
+                        <li>Analiso consequências futuras</li>
+                    </ul>
+                </div>
+                <div class="eamc-axis">
+                    <div class="eamc-axis-header">
+                        <span class="eamc-number">4</span>
+                        <h4>Escuta Ativa</h4>
+                    </div>
+                    <ul>
+                        <li>Escuto sem interromper</li>
+                        <li>Confirmo entendimento antes de opinar</li>
+                        <li>Separo fatos de interpretações</li>
+                    </ul>
+                </div>
+                <div class="eamc-axis">
+                    <div class="eamc-axis-header">
+                        <span class="eamc-number">5</span>
+                        <h4>Insights</h4>
+                    </div>
+                    <ul>
+                        <li>Conecto ideias aparentemente diferentes</li>
+                        <li>Transformo erros em aprendizados</li>
+                        <li>Proponho sínteses integradoras</li>
+                    </ul>
+                </div>
+                <div class="eamc-axis">
+                    <div class="eamc-axis-header">
+                        <span class="eamc-number">6</span>
+                        <h4>Provocação</h4>
+                    </div>
+                    <ul>
+                        <li>Questiono decisões com inconsistências</li>
+                        <li>Provoco reflexões respeitosamente</li>
+                        <li>Gero transformações positivas</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="eamc-scale">
+                <h4>Escala de Respostas</h4>
+                <div class="scale-items">
+                    <div class="scale-item"><span>1</span> Nunca ocorre</div>
+                    <div class="scale-item"><span>2</span> Raramente</div>
+                    <div class="scale-item"><span>3</span> Às vezes</div>
+                    <div class="scale-item"><span>4</span> Frequência moderada</div>
+                    <div class="scale-item"><span>5</span> Com frequência</div>
+                    <div class="scale-item"><span>6</span> Naturalmente</div>
+                    <div class="scale-item"><span>7</span> Inspira outros</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MMC 2.0 Section -->
+    <section id="mmc2" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Evolução</span>
+                <h2>MMC 2.0: A Nova Era Conversacional</h2>
+                <p>Integrando Inteligência Conversacional e IA Generativa</p>
+            </div>
+            <div class="mmc2-content">
+                <div class="mmc2-intro">
+                    <div class="mmc2-badge">
+                        <i class="fas fa-robot"></i>
+                        <span>Preprint 2025</span>
+                    </div>
+                    <h3>O que há de novo?</h3>
+                    <p>O MMC 2.0 representa uma evolução significativa do modelo original, incorporando duas grandes inovações para atender às demandas das interações contemporâneas.</p>
+                </div>
+                <div class="mmc2-features">
+                    <div class="mmc2-feature">
+                        <div class="feature-icon">🧠</div>
+                        <h4>C-IQ - Quociente de Inteligência Conversacional</h4>
+                        <p>Desenvolvido por Judith Glaser, o C-IQ aborda os processos químicos e emocionais das conversas, explorando como palavras e comportamentos afetam relações fisiologicamente.</p>
+                        <ul>
+                            <li>Neurociência Conversacional</li>
+                            <li>Impacto emocional das interações</li>
+                            <li>Construção de confiança baseada em ciência</li>
+                        </ul>
+                    </div>
+                    <div class="mmc2-feature">
+                        <div class="feature-icon">🤖</div>
+                        <h4>IA Generativa</h4>
+                        <p>Expansão para contextos híbridos onde humanos e máquinas colaboram, incluindo interações humano-máquina e máquina-máquina.</p>
+                        <ul>
+                            <li>Interações Humano-IA</li>
+                            <li>Análise de conversas com IA</li>
+                            <li>Framework para a Era da IA</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mmc2-applications">
+                    <h4>Aplicações do MMC 2.0</h4>
+                    <div class="applications-grid">
+                        <div class="application">
+                            <i class="fas fa-users"></i>
+                            <span>Equipes de Alta Performance</span>
+                        </div>
+                        <div class="application">
+                            <i class="fas fa-headset"></i>
+                            <span>Atendimento ao Cliente</span>
+                        </div>
+                        <div class="application">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <span>Liderança e Coaching</span>
+                        </div>
+                        <div class="application">
+                            <i class="fas fa-robot"></i>
+                            <span>Chatbots e Assistentes IA</span>
+                        </div>
+                        <div class="application">
+                            <i class="fas fa-handshake"></i>
+                            <span>Negociações</span>
+                        </div>
+                        <div class="application">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Educação e Treinamento</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bases Teóricas -->
+    <section class="section section-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Fundamentação</span>
+                <h2>Bases Teóricas</h2>
+                <p>O MMC é construído sobre fundamentos sólidos e reconhecidos</p>
+            </div>
+            <div class="theories-grid">
+                <div class="theory-card">
+                    <h4>Ontologia da Linguagem</h4>
+                    <p>Fernando Flores - A linguagem como ação que cria realidades e compromissos.</p>
+                </div>
+                <div class="theory-card">
+                    <h4>Modelos de Maturidade</h4>
+                    <p>CMMI e P-CMM - Estrutura de evolução por estágios e melhoria contínua.</p>
+                </div>
+                <div class="theory-card">
+                    <h4>Cinco Disciplinas</h4>
+                    <p>Peter Senge - Aprendizagem organizacional e pensamento sistêmico.</p>
+                </div>
+                <div class="theory-card">
+                    <h4>Neurociência Conversacional</h4>
+                    <p>Judith Glaser (C-IQ) - O impacto neurológico das conversas.</p>
+                </div>
+                <div class="theory-card">
+                    <h4>Modelo do Observador</h4>
+                    <p>A realidade depende do observador - múltiplas perspectivas.</p>
+                </div>
+                <div class="theory-card">
+                    <h4>Escala de Inferência</h4>
+                    <p>Chris Argyris - Como construímos conclusões a partir de dados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Autores Section -->
+    <section id="autores" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Criadores</span>
+                <h2>Autores do MMC</h2>
+                <p>Conheça os pesquisadores por trás do modelo</p>
+            </div>
+            <div class="authors-grid">
+                <div class="author-card">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Cláudio Torres de Moraes</h3>
+                    <p class="author-title">Autor Principal</p>
+                    <p class="author-credentials">Mestre em Gestão do Conhecimento e Tecnologia da Informação (MGTI) - UCB</p>
+                    <p class="author-bio">Desenvolvedor do MMC original (2011) e co-autor do MMC 2.0 (2025). Especialista em competências conversacionais e gestão organizacional.</p>
+                    <div class="author-links">
+                        <a href="http://lattes.cnpq.br/6981274347770294" target="_blank"><i class="fas fa-graduation-cap"></i> Lattes</a>
+                        <a href="mailto:claudio@triadxsolutions.com"><i class="fas fa-envelope"></i> Email</a>
+                    </div>
+                </div>
+                <div class="author-card">
+                    <div class="author-avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Prof. Dr. Gentil José de Lucena Filho</h3>
+                    <p class="author-title">Mentor Científico</p>
+                    <p class="author-credentials">Ph.D. in Systems Design - University of Waterloo (Canadá)</p>
+                    <p class="author-bio">Idealizador do projeto de pesquisa. Especialista em Ontologia da Linguagem e fenômenos de aprendizagem organizacional.</p>
+                    <div class="author-links">
+                        <a href="http://lattes.cnpq.br/0044423463893899" target="_blank"><i class="fas fa-graduation-cap"></i> Lattes</a>
+                        <a href="mailto:gentillucena.filho@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                    </div>
+                </div>
+                <div class="author-card">
+                    <div class="author-avatar">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Prof. Dr. João Souza Neto</h3>
+                    <p class="author-title">Orientador (MMC Original)</p>
+                    <p class="author-credentials">Professor - Universidade Católica de Brasília (UCB)</p>
+                    <p class="author-bio">Orientador da dissertação original. Especialista em Modelos de Maturidade e aspectos objetivos de frameworks organizacionais.</p>
+                    <div class="author-links">
+                        <a href="#"><i class="fas fa-graduation-cap"></i> UCB</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section section-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Pronto para transformar suas conversas?</h2>
+                <p>Entre em contato para saber mais sobre o MMC 2.0 e como aplicá-lo em sua organização.</p>
+                <a href="#contato" class="btn btn-primary btn-large">Fale Conosco</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contato</span>
+                <h2>Entre em Contato</h2>
+                <p>Interessado em saber mais sobre o MMC? Envie uma mensagem.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>claudio@triadxsolutions.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-file-alt"></i>
+                        <div>
+                            <h4>Publicação</h4>
+                            <p>SciELO Preprints - DOI: 10.1590/SciELOPreprints.12058</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-university"></i>
+                        <div>
+                            <h4>Instituição</h4>
+                            <p>Universidade Católica de Brasília (UCB)</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <select id="subject" name="subject">
+                            <option value="info">Informações sobre o MMC</option>
+                            <option value="consulting">Consultoria</option>
+                            <option value="training">Treinamento</option>
+                            <option value="partnership">Parceria</option>
+                            <option value="other">Outro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">💬</span>
+                    <span class="logo-text">MMC <span class="version">2.0</span></span>
+                    <p>Modelo de Maturidade Conversacional</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#niveis">Níveis</a></li>
+                        <li><a href="#dominios">Domínios</a></li>
+                        <li><a href="#escala">EAMC</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Recursos</h4>
+                    <ul>
+                        <li><a href="https://doi.org/10.1590/SciELOPreprints.12058" target="_blank">Artigo MMC 2.0</a></li>
+                        <li><a href="#autores">Autores</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Modelo de Maturidade Conversacional (MMC). Todos os direitos reservados.</p>
+                <p>Desenvolvido por Cláudio Torres de Moraes e Prof. Dr. Gentil José de Lucena Filho</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
